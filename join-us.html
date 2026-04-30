@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--Created by Brandon Ban-->
+
+    <script src="script.js"></script>
+
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Brandon Ban">
+
+    <meta name="description" content="Join the community of Tarnished in the world of Elden Ring. Sign up for updates and exclusive content.">
+
+    <title>Join Us | Elden Ring: Understanding Your Classes</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Favicon for website...image on the tab-->
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+
+    <!--Viewport meta tag for responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body onload="displayLastModified()">
+
+    <header>
+
+        <a href="index.html">
+            <img src="Gemini_Generated_Image_qk1k7oqk1k7oqk1k-removebg-preview.png" alt="Website Logo" width="300" height="140">
+        </a>
+
+            <nav class="navbar">
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="lore.html">Lore</a></li>
+                    <li><a href="join-us.html">Join</a></li>
+
+                </ul>
+
+            </nav>
+
+    </header>
+
+<hr>
+
+<main>
+    
+    <section class="Newsletter">
+
+        <h1>Commit Thy Name to the Stars</h1>
+
+        <p>Register for our newsletter to receive updates on all things Elden Ring.</p>
+
+        <form action="#" method="post">
+
+            <fieldset>
+
+                <legend>Tarnished Identity</legend>
+                <label for="Username">Username:</label>
+                <input type="text" id="Username" placeholder="i.e. Ranni" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="i.e. Ranni@magic.com" required>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Choose Your Destiny</legend>
+                <label for="Class">Starting Class:</label>
+                <select>
+                    <option value="Vagabond">Vagabond</option>
+                    <option value="Hero">Hero</option>
+                    <option value="Warrior">Warrior</option>
+                    <option value="Prisoner">Prisoner</option>
+                    <option value="Bandit">Bandit</option>
+                    <option value="Astrologer">Astrologer</option>
+                    <option value="Confessor">Confessor</option>
+                    <option value="Samurai">Samurai</option>
+                    <option value="Prophet">Prophet</option>
+                    <option value="Wretch">Wretch</option>
+                </select>
+
+                <p>Select Your Combat Style:</p>
+                <label><input type="radio" name="combatStyle" value="melee">Melee</label>
+                <label><input type="radio" name="combatStyle" value="magic">Magic (Sorcery/Incantations)</label>
+                <label><input type="radio" name="combatStyle" value="hybrid">Hybrid (Melee/Magic)</label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Mark Your Journey</legend>
+                <p>Explored Regions:</p>
+                <label><input type="checkbox" name="region" value="limgrave">Limgrave</label>
+                <label><input type="checkbox" name="region" value="liurnia">Liurnia of the Lakes</label>
+                <label><input type="checkbox" name="region" value="caelid">Caelid</label>
+                <label><input type="checkbox" name="region" value="altus plateau">Altus Plateau</label>
+                <label><input type="checkbox" name="region" value="mountaintops giants">Mountaintops of the Giants</label>
+                <label><input type="checkbox" name="region" value="leyndell">Leyndell, Royal Capital</label>
+                <label><input type="checkbox" name="region" value="consecrated snowfield">Consecrated Snowfield</label>
+                <label><input type="checkbox" name="region" value="haligtree">Miquella's Haligtree</label>
+                <label><input type="checkbox" name="region" value="crumbling farum azula">Crumbling Farum Azula</label>
+
+                <label for="journey">Recall your time in the Lands Between:</label>
+                <textarea id="journey" name="journey" rows="6" placeholder="Recount your journey here..."></textarea>
+
+            </fieldset>
+
+            <button type="submit" class="submitButton">Become A Legend</button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<hr>
+
+<footer>
+
+    <p>
+
+        <a href="mailto:bban@student.clayton.edu">Contact Us</a>
+
+    </p>
+
+    <p>
+
+        Due Date: 4/30/2026
+
+    </p>
+
+    <div id="lastModified"></div> 
+
+
+</footer>
+
+</body>
+
+</html>
